@@ -7,14 +7,6 @@
   path = "/test"
   function = "hello"
 
-# [[edge_functions]]
-#   path = "/job"
-#   function = "server-render"
-
-[[edge_functions]]
-  path = "/my/netlify/edge/function"
-  function = "server-render"
-
 [dev]
   command = "npm start"
   targetPort = 1234
