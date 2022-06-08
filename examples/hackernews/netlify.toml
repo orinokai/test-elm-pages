@@ -24,3 +24,4 @@
 [functions]
   included_files = ["content/**"]
   node_bundler = 'esbuild'
+  external_node_modules = ["elm-pages"]
